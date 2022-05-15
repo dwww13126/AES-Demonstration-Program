@@ -9,7 +9,7 @@ public class AESImageEncryption {
   public static void main(String[] args) {
       if(args.length != 1){
         System.out.println("Error! Please enter a single image file you are wanting to have encrypted");
-        System.out.println("E.g java AESImageEncryption ./<ImageName>.bmp");
+        System.out.println("E.g java AESImageEncryption <ImageName>.bmp");
       }
       else{
         //Creates a new instance of the AES encryption program
